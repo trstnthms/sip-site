@@ -11,5 +11,5 @@ setInterval(() => {
   const bounds = track.getBoundingClientRect();
   if (reducedMotion.matches || hovered || gallery.querySelector(':focus-visible') || document.hidden || Date.now() < resumeAt || bounds.bottom <= 0 || bounds.top >= innerHeight) return;
   const next = (current() + 1) % count;
-  track.scrollTo({ left: next * track.clientWidth, behavior: next === 0 || reducedMotion.matches ? 'instant' : 'smooth' });
+  track.scrollTo({ left: next * track.clientWidth, behavior: next === 0 ? 'instant' : 'smooth' });
 }, 5000);
