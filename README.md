@@ -1,6 +1,5 @@
 # Sip website
 
-Generated from [app-websites](https://github.com/trstnthms/app-websites).
-Edit content and templates there, then run `npm run publish -- sip`.
+The website, privacy policy and support pages have moved to https://sipwine.app.
 
-Existing support and privacy URLs are preserved.
+Canonical source lives in the Sip app repository under cloudflare/site. This repository preserves redirects for previously published GitHub Pages links.
